@@ -6,13 +6,15 @@ print ("this is "  +semester+  " semester.\n ")
 year: str = input ("what year is it?")
 print(" this is " "{}" .format (year))
 print ("Hope you like my ASCII art... \n\n")
-line1: str =                    "  |\\_/|   **********************            (\\_/)\n"
+line1: str = "   |\_/|       *****************************     (\_/)\n"
 print (line1)
-line2: str = "  /  @  @ \      	*                 ASCII Lab             *  	  (='.'=)"
+line2: str = "  / @ @ \      *        ASCII Lab          *    (='.'=)\n"
 print (line2)
-line3: str =  " ( >   0  < )  *               Colin Hillburn            * 	  ( "  " ) "
+line3: str = " ( > 0 < )     *       <Your Name>         *  "'( " )_( " )'"\n"
 print (line3)
-line4: str =      " >>x<<        	*                 CSCI 110              *     "
+line4: str = "   >>x<<       *     <Semester Year>       *\n"
 print (line4)
-line5: str = "/   O  \       	*****************************"
+line5: str = "  /  O  \      *        CSCI 111           *\n"
 print (line5)
+line6: str = "               *****************************\n"
+print (line6)
