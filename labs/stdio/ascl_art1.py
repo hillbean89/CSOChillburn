@@ -8,7 +8,7 @@ print(" this is %s" %year)
 print ("Hope you like my ASCII art... \n\n")
 line1: str = "   |\_/|       *****************************     (\_/)\n"
 print (line1)
-line2: str = "  / @ @ \      *        ASCII Lab          *    (='.'=)\n"
+line2: str = "  / @ @ \      *         ASCII Lab         S*    (='.'=)\n"
 print (line2)
 name= name.center(27)
 
@@ -18,7 +18,7 @@ syear= semester+" "+year
 syear= syear.center(27)
 line4: str = "   >>x<<       *%s*\n"%syear 
 print (line4)
-line5: str = "  /  O  \      *        CSCI 111           *\n"
+line5: str = "  /  O  \      *          CSCI 111         *\n"
 print (line5)
 line6: str = "               *****************************\n"
 print (line6)
