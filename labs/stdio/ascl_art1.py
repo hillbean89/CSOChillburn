@@ -10,13 +10,13 @@ line1: str = "   |\_/|       *****************************     (\_/)\n"
 print (line1)
 line2: str = "  / @ @ \      *        ASCII Lab          *    (='.'=)\n"
 print (line2)
+name= name.center(27)
 
-
-line3: str = " ( > 0 < )     *           "+name+"           *  "'( " )_( " )'"\n"
+line3: str = " ( > 0 < )     *%s*  "'( " )_( " )'"\n" %name 
 print (line3)
-
-
-line4: str = "   >>x<<       *        "+semester+" "+year+"        *\n"
+syear= semester+" "+year
+syear= syear.center(27)
+line4: str = "   >>x<<       *%s*\n"%syear 
 print (line4)
 line5: str = "  /  O  \      *        CSCI 111           *\n"
 print (line5)
