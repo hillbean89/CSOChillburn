@@ -1,4 +1,4 @@
-
+print (bin(13))
 print("hello world")
 varibleName = "100"
 print("varibleName")
