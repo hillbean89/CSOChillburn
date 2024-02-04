@@ -1,3 +1,4 @@
+
 print("Welcome to ASCII Art Program...\n")
 name = input("what is your name ")
 print("Nice Meeting you %s!" %name )
@@ -22,3 +23,4 @@ line5: str = "  /  O  \      *          CSCI 111         *"
 print (line5)
 line6: str = "               *****************************"
 print (line6)
+print ("\n Good Bye... \n")
