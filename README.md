@@ -23,3 +23,10 @@ ________________________________________________________________________________
 | Status: | In Progress |
 | Location: |  |
 | Notes: | In Progress|
+
+#Assignments
+##1-STDIO
+| Program prints four aces one of each suit |
+| Met all the requirements |
+| I ran and tested the program multiple times |
+| Give me a 100% |
