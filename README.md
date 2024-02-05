@@ -24,9 +24,11 @@ ________________________________________________________________________________
 | Location: |  |
 | Notes: | In Progress|
 
-#Assignments
-##1-STDIO
-| Program prints four aces one of each suit |
-| Met all the requirements |
-| I ran and tested the program multiple times |
-| Give me a 100% |
+# Assignments
+## 1-STDIO
+| Name | Colin Hillburn |
+| --- | --- |
+| Program prints four aces one of each suit | |
+| Met all the requirements | |
+| I ran and tested the program multiple times | |
+| Give me a 100% | |
