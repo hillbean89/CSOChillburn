@@ -1,0 +1,27 @@
+#cbr return character from unicode number
+print(chr(65))
+print(chr(97))
+print(chr(8364))
+
+#ord returns unicode form given character
+print(ord('"'))
+a_number = 5
+print(id(5))
+a_number=6
+print(id(a_number))
+print(id(6))
+y=15
+x=2*y
+print(x)
+y=30
+x=2*y
+print(x)
+
+divmod
+#given two non complex numbers as arguments, return a pair of numbers as tuple consisiting of then quotient and remainder using interger division
+#quotient remainder 7, 3
+time=111
+print(divmod(111,60))
+time= int(input("Enter in a time in minutes "))
+hours, minutes = divmod(time, 60)
+print("time = ", str(hours), "hours",str (minutes),"minutes")
