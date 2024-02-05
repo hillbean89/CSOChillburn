@@ -20,9 +20,9 @@ ________________________________________________________________________________
 | Name: | ASCII Art |
 | Description: | "ANSCII Art" |
 | Due Date: | 2/6/24 |
-| Status: | In Progress |
+| Status: | Complete |
 | Location: |  |
-| Notes: | In Progress|
+| Notes: | Complete |
 
 # Assignments
 ## 1-STDIO
