@@ -30,9 +30,9 @@ def main():
     # FIXME 3: convert string b into integer
     b= int(b)
     # FIXME 4: add two numbers and store the result into ans variable
-    addition= str(a+b)
+    ans=str(a+b)
     # FIXME 5: print the answer as shown in the sample output
-    print(addition)
+    print(ans)
 
 
 main() # call main function
