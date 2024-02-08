@@ -32,3 +32,12 @@ ________________________________________________________________________________
 | Met all the requirements | |
 | I ran and tested the program multiple times | |
 | Give me a 100% | |
+
+# Assignments
+## Triangles
+| Name | Colin Hillburn |
+| --- | --- |
+| program finds area and perimeter of a triangle given three sides, Then verifies if its a triangle and prints a triangle picture if it is | |
+| all the requirements are completed| |
+| program tested at least 49 times| |
+| Give me a 110 | |
