@@ -9,7 +9,7 @@ str(area)#I have to convert my area from a float to a string so that it can be p
 str(perimeter)# convert perimeter from float to string so that it prints 
 print("the area of your triangle is", area)
 print("the perimeter of your triangle is",perimeter)
-print('Now lets see if you made a real traingle or not!!!')
+print('Now lets see if you made a real triangle or not!!!')
 if (num1==num2==num3):
     print("You made an Isoceles Triangle")
     exit()
@@ -25,6 +25,7 @@ def maximum (num1,num2,num3):
         return C
 C=float(maximum(num1,num2,num3))
 # need to find the maximum number and label it is c to use in the pythagorean theorem
+
 def min (num1,num2,num3):
     if (num1<=num2) and (num1<=num3):
         a=num1
@@ -34,6 +35,7 @@ def min (num1,num2,num3):
     return a
 #need to find the minimum number so that we can use it in the theorem
 A=float(min(num1,num2,num3))
+
 def rem (A,B,C):
     if (num1==C) and (num2==A):
         B=num3
@@ -42,6 +44,7 @@ def rem (A,B,C):
     else: B=num1
     return B
 B=float(rem(num1,num2,num3))
+#need to define what number is left and then assign it as B to use in our triangle ineqaulity theorem
 
 if A+B<C:
     print('You didnt make a triangle :(')
@@ -61,7 +64,7 @@ if C**2>A**2+B**2:
     print('You made an obtuse triangle\n')
     
     print('    0\n   000\n 0000000')
-
+#Triangle inequality therom makes this statement true
 
 
 
