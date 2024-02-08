@@ -34,7 +34,7 @@ ________________________________________________________________________________
 | Give me a 100% | |
 
 # Assignments
-## Triangles
+## 2-Triangles
 | Name | Colin Hillburn |
 | --- | --- |
 | program finds area and perimeter of a triangle given three sides, Then verifies if its a triangle and prints a triangle picture if it is | |
