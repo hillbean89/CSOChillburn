@@ -1,8 +1,10 @@
 #Colin Hillburn, this program will ask the user for 3 numbers and then calculate the area and perimeter of the trianngle.  Once thats done it will tell the user if they made a triangle or not
 import math
-num1=float(input('please give me a number '))
-num2=float(input('please give me a second number '))
-num3=float(input('What is your last number? '))
+num1,num2,num3=input('please give me a three numbers ').split(' ')
+num1,num2,num3=float(num1),float(num2),float(num3)
+
+#num2=float(input('please give me a second number '))#changed code for a better user input
+#num3=float(input('What is your last number? '))# changed code for a better user input
 area=(num1+num2+num3)/2 #this is the formula for the area of a triangle
 perimeter= (num1+num2+num3) #this is the formula for  the perimeter of a traingle
 str(area)#I have to convert my area from a float to a string so that it can be printed as a text
