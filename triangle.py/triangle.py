@@ -47,8 +47,8 @@ def rem (A,B,C):
 B=float(rem(num1,num2,num3))
 #need to define what number is left and then assign it as B to use in our triangle ineqaulity theorem
 #tested section with print statements to make sure that program returns A as min, C as max, and B as the number that is not yet assigned a var
-#set A,B,C as floats so they can be used to determine if they are mathmatically triangles or not
-if A+B<C:
+#set A,B,C as floats so they can be used to determine if they are mathematically triangles or not
+if A+B<=C:
     print('You didnt make a triangle :(')
     exit()
 #by the triangle inequality theorem if the sums of the small and medium side arent larger then the biggest side it is not a triangle
