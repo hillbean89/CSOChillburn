@@ -1,4 +1,4 @@
-#Colin Hillburn, this program will ask the user for 3 numbers and then calculate the area and perimeter of the traingle
+#Colin Hillburn, this program will ask the user for 3 numbers and then calculate the area and perimeter of the trianngle.  Once thats done it will tell the user if they made a triangle or not
 import math
 num1=float(input('please give me a number '))
 num2=float(input('please give me a second number '))
@@ -11,10 +11,11 @@ print("the area of your triangle is", area)
 print("the perimeter of your triangle is",perimeter)
 print('Now lets see if you made a real triangle or not!!!')
 if (num1==num2==num3):
-    print("You made an Isoceles Triangle")
+    print("You made an Isoceles Triangle\n")
+    print('   0\n  000\n 00000\n0000000')
     exit()
     
-#if all sides are equal its an isoceles triganlge
+#if all sides are equal its an isoceles triganlge, Set this first so that program does not need to assign values if the statement is true and the program ends
 def maximum (num1,num2,num3):
     if (num1>=num2) and (num1>=num3):
         C=num1
@@ -45,7 +46,8 @@ def rem (A,B,C):
     return B
 B=float(rem(num1,num2,num3))
 #need to define what number is left and then assign it as B to use in our triangle ineqaulity theorem
-
+#tested section with print statements to make sure that program returns A as min, C as max, and B as the number that is not yet assigned a var
+#set A,B,C as floats so they can be used to determine if they are mathmatically triangles or not
 if A+B<C:
     print('You didnt make a triangle :(')
     exit()
