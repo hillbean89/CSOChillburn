@@ -20,9 +20,7 @@ while (s-num1<0) or (s-num2<0) or (s-num3<0):
         continue
 #if conditions are not met program continues
 area= math.sqrt(s*(s-num1)*(s-num2)*(s-num3))
-#this is the formula for  the perimeter of a traingle
-#I have to convert my area from a float to a string so that it can be printed as a text
-# convert perimeter from float to string so that it prints 
+#this is the formula for  the perimeter of a triangle
 print ("the area of your triangle is", area)
 print("the perimeter of your triangle is",perimeter)
 print('Now lets see if you made a real triangle or not!!!')
@@ -32,7 +30,6 @@ if (num1==num2==num3):
     exit()
 #if all sides are equal its an isoceles triganlge, Set this first so that program does not need to assign values if the statement is true and the program ends
 def maximum (num1,num2,num3):
-    C=num1
     if (num1>=num2) and (num1>=num3):
         C=num1
     elif(num2>=num1) and (num2>=num3):
