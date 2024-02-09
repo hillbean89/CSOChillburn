@@ -1,7 +1,7 @@
 #Colin Hillburn, this program will ask the user for 3 numbers and then calculate the area and perimeter of the trianngle.  Once thats done it will tell the user if they made a triangle or not
 import os
 import math
-beggining=num1,num2,num3=input('please give me  three numbers ').split(' ')
+num1,num2,num3=input('please give me  three numbers ').split(' ')
 num1,num2,num3=float(num1),float(num2),float(num3)
 
 #num2=float(input('please give me a second number '))#changed code for a better user input
@@ -13,11 +13,11 @@ perimeter= (num1+num2+num3)
 s= perimeter/2
 #need to define s for Herons equation
 #if s-any number is <0 it puts a negative number into the area equation.  Made loop to make sure user can not input numbers that make s-number <0
-while (s-num1<0) or (s-num2<0) or (s-num3<0):
+while s-num1<0 or s-num2<0 or s-num3<0:
         print('These numbers are to advanced for my bird brain')
         num1,num2,num3=input('please give me  three numbers ').split(' ')
         num1,num2,num3=float(num1),float(num2),float(num3)      
-        continue
+        
 #if conditions are not met program continues
 area= math.sqrt(s*(s-num1)*(s-num2)*(s-num3))
 #this is the formula for  the perimeter of a triangle
@@ -39,6 +39,7 @@ def maximum (num1,num2,num3):
         return C
 C=float(maximum(num1,num2,num3))
 # need to find the maximum number and label it is c to use in the pythagorean theorem
+#tested this multiple ways
 
 def min (num1,num2,num3):
     if (num1<=num2) and (num1<=num3):
