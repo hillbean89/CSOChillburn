@@ -11,11 +11,14 @@ num1,num2,num3=float(num1),float(num2),float(num3)
 perimeter= (num1+num2+num3)
 #this is the formula for  the perimeter of a traingle
 s= perimeter/2
+#need to define s for Herons equation
+#if s-any number is <0 it puts a negative number into the area equation.  Made loop to make sure user can not input numbers that make s-number <0
 while s-num1<0 or s-num2<0 or s-num3<0:
         print('These numbers are to advanced for my bird brain')
         num1,num2,num3=input('please give me a three numbers ').split(' ')
         num1,num2,num3=float(num1),float(num2),float(num3)
         break
+#if conditions are not met program continues
 area= math.sqrt(s*(s-num1)*(s-num2)*(s-num3))
 #this is the formula for  the perimeter of a traingle
 #I have to convert my area from a float to a string so that it can be printed as a text
@@ -27,8 +30,6 @@ if (num1==num2==num3):
     print("You made an Isoceles Triangle\n")
     print('   0\n  000\n 00000\n0000000')
     exit()
-
-  
 #if all sides are equal its an isoceles triganlge, Set this first so that program does not need to assign values if the statement is true and the program ends
 def maximum (num1,num2,num3):
     C=num1
