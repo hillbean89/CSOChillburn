@@ -13,7 +13,7 @@ perimeter= (num1+num2+num3)
 s= perimeter/2
 #need to define s for Herons equation
 #if s-any number is <0 it puts a negative number into the area equation.  Made loop to make sure user can not input numbers that make s-number <0
-while s-num1<0 or s-num2<0 or s-num3<0:
+while (s-num1<0) or (s-num2<0) or (s-num3<0):
         print('These numbers are to advanced for my bird brain')
         num1,num2,num3=input('please give me  three numbers ').split(' ')
         num1,num2,num3=float(num1),float(num2),float(num3)      
