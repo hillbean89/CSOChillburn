@@ -90,6 +90,7 @@ def testFunctions():
     assert(findSeconds(1) == 3600)
     # FIXME5 - write 3 more tests cases for findSeconds function
     assert(findSeconds(2) == 7200)
+    assert(findSeconds(3)== 10800)
     assert(findSeconds(4)==14400)
     print('all test cases passed...')
 
