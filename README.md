@@ -41,3 +41,11 @@ ________________________________________________________________________________
 | all the requirements are completed| |
 | program tested at least 49 times| |
 | Give me a 110 | |
+
+# Lab
+## 3 function   
+| Name | Colin Hillburn |
+| --- | --- |
+| fixed all the fix mes | |
+| grade 100%| |
+| program ran and verified multiple times| |
