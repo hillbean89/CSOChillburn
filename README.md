@@ -57,3 +57,12 @@ ________________________________________________________________________________
 | fixed all the fix mes | |
 | grade 100%| |
 | program ran and verified multiple times passed in kattis and screenshot uploaded| |
+
+# Assignments
+## 3-Functions
+| Name | Colin Hillburn|
+| --- | --- |
+| program takes a user input then adds, subtracts, multiply, divides, raises, and then finds the square root.  It then test that all the functions works correctly and tells the user | |
+| all the requirements are completed| |
+| program tested at least 49 times| |
+| Give me a 110 | |
