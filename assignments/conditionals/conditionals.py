@@ -2,8 +2,7 @@
 
 import sys
 import math
-def loop():
-    while true input()
+
 def user_input(): 
     (num1,num2,num3,num4,num5)=input("Please enter 5 numbers ").split(" ")
     num1 = float(num1)
@@ -64,6 +63,16 @@ def test():
     assert minimum(1,2,3,4,5)==1
     assert minimum(2,3,4,5,6)==2
 
+def loop():
+    answer=input( "Would you like to check some more numbers? Enter y or yes: anything else to quit ")
+    while answer == 'y' or answer == 'yes':
+         main()
+    else:
+        print('Thanks for using the program')
+        sys.exit
+        
+        
+
 
 def main():
      num1,num2,num3,num4,num5=user_input()
@@ -72,6 +81,8 @@ def main():
      print ("The product is ",product(num1,num2,num3,num4,num5))
      print ("The biggest number is ",maximum(num1,num2,num3,num4,num5))
      print ("The smallest number is ",minimum(num1,num2,num3,num4,num5))
+     loop()
+
 
 test()
 main()
