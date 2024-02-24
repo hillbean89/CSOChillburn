@@ -2,7 +2,6 @@
 import sys
 import math
 
-
 num1,num2=input("please enter two numbers ").split(" ")
 num1= float(num1)
 num2= float(num2)
@@ -23,7 +22,7 @@ def subtract(num1,num2):
     difference=num1-num2
     return difference
 
-#def numbers():
+#def numbers(num1,num2):
     num1,num2=input("please enter two numbers ").split(" ")
     num1,num2= float
 
@@ -70,4 +69,5 @@ def main ():
     print ("The difference is ",subtract(num1,num2))
     print (maximum(num1,num2))
     
+
 main()
