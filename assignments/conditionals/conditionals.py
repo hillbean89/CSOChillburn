@@ -2,7 +2,7 @@
 
 import sys
 import math
-
+#function collects 5 numbers from the user then converts them to floats
 def user_input(): 
     (num1,num2,num3,num4,num5)=input("Please enter 5 numbers ").split(" ")
     num1 = float(num1)
@@ -11,16 +11,21 @@ def user_input():
     num4 = float(num4)
     num5 = float(num5)
     return num1,num2,num3,num4,num5
+#Function takes all 5 numbers and adds them together
+
 
 def sum(num1,num2,num3,num4,num5):
     sum = num1+num2+num3+num4+num5
     sum=float(sum)
     return sum
 
+
+#function takes the sum and divides it by 5 and then gives the average 
 def average_number(sum):
     average=sum/5
     return average
 
+#fucntion multiplys all the numbers together and returns the product
 def product(num1,num2,num3,num4,num5):
     product=num1*num2*num3*num4*num5
     return product
