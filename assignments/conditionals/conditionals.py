@@ -68,13 +68,13 @@ def test():
     assert minimum(1,2,3,4,5)==1
     assert minimum(2,3,4,5,6)==2
 
-def loop():
-    answer=input( "Would you like to check some more numbers? Enter y or yes: anything else to quit ")
-    while answer == 'y' or answer == 'yes':
-         main()
-    else:
-        print('Thanks for using the program')
-        sys.exit
+
+#answer=input( "Would you like to check some more numbers? Enter y or yes: anything else to quit ")
+   # while answer == 'y' or answer == 'yes':
+    #main()
+    #else:
+       # print('Thanks for using the program')
+        #sys.exit
         
         
 
@@ -86,8 +86,21 @@ def main():
      print ("The product is ",product(num1,num2,num3,num4,num5))
      print ("The biggest number is ",maximum(num1,num2,num3,num4,num5))
      print ("The smallest number is ",minimum(num1,num2,num3,num4,num5))
-     loop()
-
+     
 
 test()
-main()
+     
+
+
+
+#answer=( "Would you like to check some more numbers? Enter y or yes: anything else to quit ")
+if __name__=="__main__":
+    while True:
+        main()
+        answer= input( "Would you like to check some more numbers? Enter y or yes: anything else to quit ")
+        if answer=="y" or answer=="yes":
+            continue
+        else:
+            print('Thanks for using the program')
+            break
+        
