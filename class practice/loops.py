@@ -9,6 +9,9 @@ def main():
             continue
         else:
             print("exiting")
+            break
+    else:
+        print("youve played all 10 games")
 
 
 ()
