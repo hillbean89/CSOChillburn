@@ -26,7 +26,7 @@ def odd_even(number: int) -> str:
     """
     # fixme 1: if the number divided by 2 has 0 remainder, return 'even'
     # otherwise, return 'odd'
-    if number/2==0:
+    if number%2==0:
         ans="even"
     else:
         ans="odd"
