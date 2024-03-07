@@ -9,6 +9,7 @@ Program prompts user to enter a phrase and tells the user various properties abo
 """
 
 import sys
+import string
 
 def isReversible(phrase):
     # Function to determine whether given phrase is same forward and backward, i.e.,
@@ -55,22 +56,20 @@ def hasUpperCase(phrase):
 
 
 def hasDigit(phrase):
-    ch= ""
-    if ch in phrase:
+    for ch in phrase:
         if ch.isdigit():
             return True
-        return False
 
     # FIXME1: return True if phrase has at least 1 digit, false otherwise
     pass
 
 
 def hasSymbol(phrase):
-    ch=""
-    if ch in phrase:
-        if not ch.isalnum():
-            return True
-        return False
+
+    for c in phrase:
+            if c in string.punctuation:
+                return True
+            reut
 
     # FIXME2: return True if phrase has at least one of these symbols: ~!@#$%
     # return False otherwise
