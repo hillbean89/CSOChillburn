@@ -69,7 +69,7 @@ def hasSymbol(phrase):
     for c in phrase:
             if c in string.punctuation:
                 return True
-            reut
+    return False
 
     # FIXME2: return True if phrase has at least one of these symbols: ~!@#$%
     # return False otherwise

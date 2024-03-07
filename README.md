@@ -82,3 +82,27 @@ ________________________________________________________________________________
 | fixed all the fix mes | |
 | grade 100%| |
 | program ran and verified multiple times passed in kattis and screenshot uploaded| |
+
+# Lab
+## hiss
+| Name | Colin Hillburn |
+| --- | --- |
+| fixed all the fix mes | |
+| grade 100%| |
+| program ran and verified multiple times passed in kattis and screenshot uploaded| |
+
+# Lab
+## strings 
+| Name | Colin Hillburn |
+| --- | --- |
+| fixed all the fix mes | |
+| grade 100%| |
+| program ran and verified multiple times passed in kattis and screenshot uploaded| |
+
+# assignment
+## guess a number 
+| Name | Colin Hillburn |
+| --- | --- |
+| fixed all the fix mes| |
+| grade 100%| |
+| program ran and verified multiple times| |
