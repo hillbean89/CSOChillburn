@@ -14,6 +14,8 @@ def greeting():
 def game():
     take_guess=1
     number=random.randint(1,20)
+    tries=1
+    right=0
     
     while take_guess<6:
         guess=input('Pick a number between 1 and 20 ')
@@ -22,11 +24,16 @@ def game():
             print('you guessed to low',)
             take_guess+=1
             
+            
         elif guess>number:
             print('your guess is to high',)
             take_guess+=1
+
         if guess==number:
             print('Yay you guessed my number in', take_guess, ' tries')
+            
+
+            
             break 
 
 
@@ -37,6 +44,7 @@ def game():
 
 def main():
     game()
+
 
 greeting()
 
