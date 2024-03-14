@@ -1,8 +1,8 @@
 """
 Lists and Unittest Lab
-Updated By: FIXME
+Updated By: Colin
 CSCI 110 Lab
-Date: FIXME
+Date: 03/14/2024
 
 Read and solve - Pet: https://open.kattis.com/problems/pet 
 

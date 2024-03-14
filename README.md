@@ -107,3 +107,11 @@ ________________________________________________________________________________
 |tested the program many times| |
 |bonus points (+10)| |
 |total points = 110 points| |
+
+# Lab
+## pet
+| Name | Colin Hillburn |
+| --- | --- |
+| fixed all the fix mes | |
+| grade 100%| |
+| program ran and verified multiple times passed in kattis and screenshot uploaded| |
