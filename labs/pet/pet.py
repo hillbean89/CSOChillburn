@@ -35,8 +35,6 @@ def main() -> None:
         integers=get_data()
     # FIXM 3 - find the sum of scores using list_sum function
         total_socres=(list_sum(integers))
-       
-        
 
     # FIXM 4 - append the sum to the list of scores
 
