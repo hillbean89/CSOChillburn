@@ -120,6 +120,7 @@ ________________________________________________________________________________
 ## avion
 | Name | Colin Hillburn |
 | --- | --- |
-| passed in kattis and screenshot uploaded| |
-| grade 100%| |
-| program ran and verified multiple times passed in kattis and screenshot uploaded| |
+| solution accepted| |
+| wrote and tested 3 test cases as aksed| |
+| screenshot is uploaded| |
+| Score is 100 | |
