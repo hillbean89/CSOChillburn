@@ -1,12 +1,11 @@
 import sys
 def task():
-    commands=input()
-    #line1= input()
-    #line2=input()
+ command=input().split()
+ print(command)
+def simon_says(command):
+ #if "simon says" or "Simon says" in command:
+  # print(command[2:])
 
-def simon_says(commands):
-   if "simon says" or "Simon says" in commands:
-     print(commands)
         
             
             
@@ -14,7 +13,7 @@ def simon_says(commands):
 
 def main():
    getdata=task()
-   simon_says(getdata)
+   
     
 
 main()
