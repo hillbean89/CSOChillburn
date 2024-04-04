@@ -2,10 +2,10 @@
     CS110 Lab
     Dictionary Lab
 
-    Updated By: Colin Hillburn
+    Updated By: Anthony Radeck
 
     CSCI 110
-    Date: 4/02/2024
+    Date: 04/02/2024
 
     Working with Python dictionary (dict) data structure.
 """
@@ -13,38 +13,32 @@ import os
 
 # create a mapping of state names to their codes using a dictionary
 states = {
-    'Oregon': 'OR',
-    'Florida': 'FL',
-    'California': 'CA',
-    'New York': 'NY',
-    'Michigan': 'MI',
-    'Nebraska': 'NE',
-    'Colorado': 'Co',
-    'Wyoming': 'WY',
-    'Idaho': 'Id',
-    'Montatn':'MT'}
+    'Mississippi': 'MS',
+    'Colorado': 'CO',
+    'Nevada': 'NV',
+    'North Dakota': 'ND',
+    'Arizona': 'AZ'
+    # FIXME3 – add codes for the rest of the states
+}
 
 # create a mapping of states to their capital state using a dictionary
 capitalCity = {
-    'CA': 'Sacramento',
-    'MI': 'Lansing',
-    'FL': 'Tallahassee',
-    'NY': 'Buffalo',
-    'OR': 'Salem',
-    'NE': 'Lincoln',
-    'Co': 'Golden',
-    'WY': 'Cheyenne',
-    'Id': 'Boise',
-    'MT': 'Helena'}
+    'CO': 'Denver',
+    'NV': 'Reno',
+    'ND': 'Bismarck',
+    'AZ': 'Phoenix',
+    'MS': 'Jackson'
+}
 
 # add some more entires to capitalCity dictionary
-capitalCity['NY'] = 'Albany'
-capitalCity['OR'] = 'Salem'
-capitalCity['NE'] = 'Lincoln'
-capitalCity['Co'] = 'Denver'
-capitalCity['WY'] = 'Cheyenne'
-capitalCity['Id'] = 'Boise'
-capitalCity['MT'] = 'Helena'
+capitalCity['CO'] = 'Denver'
+capitalCity['NV'] = 'Carson City'
+capitalCity['ND'] = 'Bismarck'
+capitalCity['AZ'] = 'Phoenix'
+capitalCity['MS'] = 'Jackson'
+
+
+
 # FIXME4: Add rest of the states’ capital cities to capitalCity dictionary
 
 
@@ -76,35 +70,26 @@ def main():
                 print('Code for {} is {}.'.format(state, states[state]))
             else:
                 print("Sorry! The US state name '{}' NOT found!".format(state))
-        if option == '2':
-            code=input('Enter a states code')
-            if code in capitalCity:
-                print('Capital for {} is {}'.format(code,capitalCity[code]))
+        elif option == '2':
+            state = input('Enter a US state code: ')
+            if state in capitalCity:  # check if state is in states dict
+                print('City for that code is {}.'.format(capitalCity[state]))
             else:
-                print("Sorry! The US state code '{}'NOT found!'".format(states))
-            # FIXME5 - complete menu option 2#fixed
+                print("Sorry! The US state name '{}'NOT found!'".format(state))
 
-        if option=='3':
-            Place=input('Enter a state')
-            retval= states.get(Place)
-        if retval in capitalCity:
-            
-            print('the capital of {} is {}'.format(Place(capitalCity[retval])))
+        elif option == '3':
+            place=input('Enter a state: ')
+            reval= states.get(place)
+            if reval in capitalCity:
+                print('the capital of {} of {} '. format(place,capitalCity[reval]))
+            else:
+                print('Please try a different selection.')    
         else:
-            print('sorry but you suck')
-            
-
-            
-
-
-
-        # FIXME6 - complete menu option 3 FIXED
-
+            main()
         # FIXME7 - handle the case where user enters invalid menu option
         print('Enter to continue...')
-
         input()
-
+        
 
 if __name__ == "__main__":
     main()
