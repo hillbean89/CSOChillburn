@@ -7,7 +7,8 @@ def main():
 
 main()
 
-#assert main('Simon says hi') == "hi"
-#assert main('Simon says hello') == "hello"
-#assert main('Simon says bye') == "bye"
-#print ("All passed")
+
+assert main('Simon says hi') == "hi"
+assert main('Simon says hello') == "hello"
+assert main('Simon says bye') == "bye"
+print ("All passed")
