@@ -2,7 +2,7 @@
     CS110 Lab
     Dictionary Lab
 
-    Updated By: Anthony Radeck
+    Updated By: Colin Hillburn
 
     CSCI 110
     Date: 04/02/2024
