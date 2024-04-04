@@ -76,7 +76,7 @@ def main():
                 print('Code for {} is {}.'.format(state, states[state]))
             else:
                 print("Sorry! The US state name '{}' NOT found!".format(state))
-        elif option == '2':
+        if option == '2':
             code=input('Enter a states code')
             if code in capitalCity:
                 print('Capital for {} is {}'.format(code,capitalCity[code]))
@@ -84,12 +84,12 @@ def main():
                 print("Sorry! The US state code '{}'NOT found!'".format(states))
             # FIXME5 - complete menu option 2#fixed
 
-        elif option=='3':
+        if option=='3':
             Place=input('Enter a state')
             retval= states.get(Place)
         if retval in capitalCity:
             
-            print('the capital of colorado is {}'.format(capitalCity[retval]))
+            print('the capital of {} is {}'.format(Place(capitalCity[retval])))
         else:
             print('sorry but you suck')
             
@@ -102,7 +102,7 @@ def main():
 
         # FIXME7 - handle the case where user enters invalid menu option
         print('Enter to continue...')
-        
+
         input()
 
 
