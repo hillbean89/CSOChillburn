@@ -152,6 +152,7 @@ ________________________________________________________________________________
 
 # lab 9
 ## file IO
+|goes to a dictionary adds numbers to a list sorts high to low low to high prints the list and then prints max and min| |
 |met all requirements (90 points)| |
 |updated readme (10 points)| |
 |tested the program many times| |

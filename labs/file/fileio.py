@@ -48,7 +48,7 @@ def readData():
 
 
         
-    # FIXME1 (20 points):
+    # FIXME1 (20 points):FIXED
     # Prompt user to input file name
     # open the file; read each number one line at a time;
     # and store it into intList list
@@ -59,7 +59,7 @@ def readData():
 
 
 def sortListInAscendingOrder(lstInts):
-    # FIXME2
+    # FIXME2 FIXED
     # sort lstInts list in ascending order
     lstInts.sort()
 
@@ -72,7 +72,7 @@ def sortListInAscendingOrder(lstInts):
 def sortListInDescendingOrder(lstInts):
     lstInts.sort(reverse=True)
     #lstInts.append()
-    # FIXME3
+    # FIXME3 FIXED
     # sort lstInts in descending order
     return lstInts
 
@@ -81,7 +81,7 @@ def sortListInDescendingOrder(lstInts):
 
 def printList(printFile, lstInts):
     for i in lstInts:
-        # FIXME4
+        # FIXME4 fixed
         # write each value one line at a time to file
         # handled by printFile object.
         printFile.write(f"{i}\n")
@@ -102,7 +102,7 @@ def main():
     printList(printFile, integers)
 
 
-    # FIXME5
+    # FIXME5 FIXED
     # Call sortListInDescendingOrder function
     
     sortListInDescendingOrder(integers)
@@ -110,18 +110,18 @@ def main():
     printList(printFile, integers)
 
 
-    # FIXME6
+    # FIXME6 FIXED
     # Write the sorted list in descending order to the output file
 
 
-    # FIXME7
+    # FIXME7 FIXED
     printFile.write(f"largest number of inputed set: {max(integers)}\n")
     
     # Print the largest number to the output file
     
 
 
-    # FIXME8
+    # FIXME8 FIXED
     # Print the smallest number to the output file
     printFile.write(f"smallest number of inputed set: {min(integers)}\n" )
 
@@ -133,7 +133,7 @@ def main():
 
 
 
-# FIXME9
+# FIXME9 FIXED
 # Call main function if this module is run as the main module
 if __name__ == "__main__":
     main()
