@@ -43,6 +43,14 @@ ________________________________________________________________________________
 | Give me a 110 | |
 
 # Lab
+## Math 
+| Name | Colin Hillburn |
+| --- | --- |
+| fixed all the fix mes | |
+| grade 100%| |
+| program ran and verified multiple times| |
+
+# Lab
 ## 3 function   
 | Name | Colin Hillburn |
 | --- | --- |
@@ -116,7 +124,7 @@ ________________________________________________________________________________
 | grade 100%| |
 | program ran and verified multiple times passed in kattis and screenshot uploaded| |
 
-# Lab
+# Assignment
 ## avion
 | Name | Colin Hillburn |
 | --- | --- |
@@ -124,3 +132,27 @@ ________________________________________________________________________________
 | wrote and tested 3 test cases as aksed| |
 | screenshot is uploaded| |
 | Score is 100 | |
+
+# Lab 8
+## Dictlab
+| Name | Colin Hillburn |
+| --- | --- |
+| states and capital dictionarys| |
+| tested multiple times| |
+| then broke it and tested again| |
+| Score is 100 | |
+
+# assignment
+##  Simon Says
+|met all requirements (90 points)| |
+|updated readme (10 points)| |
+|tested the program many times| |
+|wrote and tested assert statements| |
+|total points = 100 pts| |
+
+# lab 9
+## file IO
+|met all requirements (90 points)| |
+|updated readme (10 points)| |
+|tested the program many times| |
+|total points = 100 pts| |
