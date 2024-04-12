@@ -1,14 +1,29 @@
+
+import sys
+
+def solution(command):
+  if "Simon says" in command:
+        results=(command[11:])
+  else:
+     results=""
+  return results
+
+def the_game():
+ n=int(input())
+ for i in range(n):
+    command = input()
+    print(solution(command))
+        
+
+
+
 def main():
-    for i in range(int(input())):
-        command = input()
-        if "Simon says" in command:
-            print(command[11:])
-            return
+ #bossy=input()
+ the_game()
 
 main()
 
-
-assert main('Simon says hi') == "hi"
-assert main('Simon says hello') == "hello"
-assert main('Simon says bye') == "bye"
-print ("All passed")
+assert solution("Simon says hi") == "hi"
+assert solution('Simon says hello') == "hello"
+assert solution('Simon says bye') == "bye"
+print ("All passed", file=sys.stderr)
