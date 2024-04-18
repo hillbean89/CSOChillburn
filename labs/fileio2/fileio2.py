@@ -1,7 +1,7 @@
 """
 File I/O Lab with Dictionary
 
-Update By: Dakota Hubbard
+Update By: Colin Hillburn
 
 CSCI 110
 Date: 20241604
