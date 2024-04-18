@@ -166,3 +166,11 @@ ________________________________________________________________________________
 |screenshot is in the file screenshot.jpg (5 points)| |
 |readme is up to date (5 points)| |
 |total points = 100 pts| |
+
+# lab 10
+## file IO2
+|opens a text file counts how many times words show up takes the most frequent and prints them with the amount of times they show up| |
+|met all requirements (90 points)| |
+|updated readme (10 points)| |
+|tested the program many times| |
+|total points = 100 pts| |
