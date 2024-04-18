@@ -37,7 +37,7 @@ def readText():
             words=line.split()
             # FIXME3 #fixed
             # update words; split line into list of words and store the list into words object
-            words += line.split()
+            #words += line.split()
             for exword in words:
                 hist[exword] = hist.get(exword , 0) +1
                    
