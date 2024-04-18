@@ -1,14 +1,25 @@
-n = int(input())
+def main():
+    n= int(input())
 
-list = [int(x) for x in input().split()]
-alice = 0
-bob = 0
+    list = [int(x) for x in input().split()]
+    alice = 0
+    bob = 0
 
-while list:
-    alice += max(list)
-    list.remove(max(list))
-    if list:
-        bob += max(list)
-        list.remove(max(list))
+    while list:
+     alice += max(list)
+     list.remove(max(list))
+     if list:
+         bob += max(list)
+         list.remove(max(list))
 
-print (alice, bob)
+    print (alice, bob)
+
+    return alice, bob
+
+
+assert main(3/'n'3 1 2)==4,2
+
+
+main()
+
+
