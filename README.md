@@ -157,3 +157,12 @@ ________________________________________________________________________________
 |updated readme (10 points)| |
 |tested the program many times| |
 |total points = 100 pts| |
+
+
+# assignment
+## falling apart
+|solution accepted (70 points)| |
+|wrote 3 test cases as the requirement asked (20 points)| |
+|screenshot is in the file screenshot.jpg (5 points)| |
+|readme is up to date (5 points)| |
+|total points = 100 pts| |
