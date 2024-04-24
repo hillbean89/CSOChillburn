@@ -1,6 +1,7 @@
 import sys, math, random
 '''Colin Hillburn, April 17, 2024
-Takes two lines of inputs and assigns the highest value to one person then the next highest to bob.  It does this til there are no numbers left from the input
+Takes two lines of inputs and assigns the highest value to one person then the next highest to bob. 
+It does this til there are no numbers left from the input
 it then adds all of the numbers that each person has and returns the sum'''
 
 
