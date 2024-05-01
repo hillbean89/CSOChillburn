@@ -36,7 +36,7 @@ def readData():
             line = (fin.readline())
             line = line.strip()
 
-
+z
             if line == '':
                 break
             
