@@ -26,24 +26,30 @@ def wordle_wish_version(the_word):
             break
         else:
             number_of_guess-=1
-            print(f"you didnt guess the word, you have{number_of_guess} left ")
+            print(f"you didnt guess the word, you have {number_of_guess} left ")
             for c_the_word,c_guess in zip(the_word,guess):
             
-                if c_the_word in guess:
-                    if c_the_word==c_guess:
+                #if c_the_word in guess:
+                    if c_guess in the_word and c_guess in c_the_word:          #if c_the_word==c_guess original code written with help
+                        #print(c_the_word,)
                         #print(GREEN, end='')
-                        print(GREEN+c_the_word+WHITE, end='')
+                        print(GREEN+c_the_word+WHITE, end=''" ")
+                        
+                        
                         #print(WHITE, end='')
                         #print()
 
+                    elif c_guess in the_word:                     # original code written with help if c_guess==c_the_word:
+                        print(YELLOW+c_guess+WHITE,end=''" ")
+                        
+                        
                     else:
-                        print(YELLOW+c_guess+WHITE, end='')
-                else:
-                    print('_', end='')
+                        print('_', end=''" ")
+                    
         if number_of_guess==1:
             print(the_word[::-1])
         if number_of_guess==0:
-            print(f"You didnt get it, the answer was{the_word}")
+            print(f"You didnt get it, the answer was {the_word}")
             break
 
 def main():
