@@ -1,6 +1,7 @@
 import random, math, sys,json
 import pathlib
 my_path=pathlib.Path(__file__).parent.resolve()
+print('Wordle is a game where you guess a word with 5 letters.  If the letter is in the word it prints yellow, if its in the right place it prints the letter green, if its not in the word it prints a dash')
 def the_list():
     words=[]
     bring_them_to_me=f"{my_path}/{'final2.txt'}" #makes a path to go and find the text document with my words in it 
