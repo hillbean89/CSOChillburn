@@ -1,4 +1,4 @@
-
+import random
 the_word="shoes"
 def wordle_wish_version(the_word):
     
@@ -16,9 +16,12 @@ def wordle_wish_version(the_word):
         else:
             number_of_guess-=1
             print(f"you didnt guess the word, you have {number_of_guess} left ")
-            for c_the_word,c_guess in zip(the_word,guess):
+            s=the_word
+            s_the_word=''.join(random.sample(s,len(s)))
+            print(s_the_word)
             
-                #if c_the_word in guess:
+            for c_the_word,c_guess in zip(the_word,guess):
+                '''if c_the_word in guess:
                     if c_guess in the_word and c_guess in c_the_word:          #if c_the_word==c_guess original code written with help
                         #print(f"{c_the_word}'end'")
                     
@@ -38,7 +41,7 @@ def wordle_wish_version(the_word):
             print(the_word[::-1])
         if number_of_guess==0:
             print(f"You didnt get it, the answer was {the_word}")
-            break
+            break'''
 
 
 
